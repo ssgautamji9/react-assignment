@@ -1,6 +1,7 @@
 {
   "name": "assignment",
   "version": "0.1.0",
+  "homepage": "https://assignment.solutionspool.in/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.0.1",

@@ -70,7 +70,7 @@ const App: FC = () => {
     <Row>
       {userList.length > 0 && (
         userList.map((item,index)=>{
-          return (<Col lg={6} key={index}>
+          return (<Col lg={6} md={8} xs={24} key={index}>
             <MyCard user={item} editClick={(target)=>showModal(target)} deleteClick={handleDelete}/>
             </Col>)
         })
